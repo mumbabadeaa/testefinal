@@ -1,5 +1,6 @@
 <config>
   <!-- Slot Control -->
+  <cause v='COVID_19'/>
   <power v='full'/>
 
   <!-- User Information -->
