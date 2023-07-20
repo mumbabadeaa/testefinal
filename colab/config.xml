@@ -1,7 +1,5 @@
 <config>
   <!-- Slot Control -->
-  
-  <cause v='COVID_19'/>
   <power v='full'/>
 
   <!-- User Information -->
@@ -10,9 +8,8 @@
   <user v='1vcyytfmic59'/>
 
   <!-- Folding Slots -->
-  
-   <slot id='1' type='GPU'>
-    <pci-bus v='0'/>
-    <pci-slot v='5'/>
+  <slot id='0' type='GPU'>
+    <gpu-index v='0'/> <!-- O índice da GPU (0 para a primeira GPU, 1 para a segunda GPU, etc.) -->
+    <tinker v='false'/> <!-- Desabilitar o uso de projetos Tinker para GPUs NVIDIA modernas -->
   </slot>
 </config>
